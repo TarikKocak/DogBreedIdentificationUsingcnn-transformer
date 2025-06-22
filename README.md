@@ -5,7 +5,7 @@ This project classifies dog breeds from images using a hybrid deep learning appr
 CNN Backbone: Xception pre-trained on ImageNet for feature extraction.
 Transformer Layers: Captures long-range dependencies and refines feature embeddings.
 Early Stopping: Prevents overfitting by monitoring validation loss.
-Input Resolution: 122x122 RGB images.
+Input Resolution: 224x224 RGB images.
 Number of Classes: 120 Dog Breeds.
 Top-5 Predictions available for inference.
 
@@ -36,7 +36,7 @@ Validation Set: 1 part (2,058 images)
 
 Test Set: 2 parts (2 × 2,058) = 4,116 images
 
-Input Image Size: 122×122 pixels
+Input Image Size: 224×224 pixels
 
 Labeling:
 labels_r dictionary maps integer labels (0–119) to breed names.
@@ -54,6 +54,10 @@ Learning Rate: Tuned using RandomizedSearchCV (initial LR ~1e-4).
 
 Early Stopping: Monitors val_loss.
 
-Training Epochs: ~25–30
+Training Epochs: Approximately 20, with early stopping to halt training when no further improvement is observed
 
 Final Model: xception_transformer_best.pt
+
+## ✅ Results
+Our model ranks 5th among other works evaluated on the same dataset and task
+![top5new](https://github.com/user-attachments/assets/8d11ba50-f6b8-499b-8918-b082fd289b1c)
