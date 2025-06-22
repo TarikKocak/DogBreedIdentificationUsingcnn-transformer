@@ -1,7 +1,7 @@
 Dog Breed Classification using CNN + Transformer
 This project classifies dog breeds from images using a hybrid deep learning approach that combines a CNN (Xception) feature extractor and a Transformer for sequence modeling. The model is trained and fine-tuned on the Stanford Dogs dataset (120 classes), achieving robust results for multi-class classification.
 
-##🚀 Features
+## 🚀 Features
 CNN Backbone: Xception pre-trained on ImageNet for feature extraction.
 
 Transformer Layers: Captures long-range dependencies and refines feature embeddings.
@@ -14,7 +14,7 @@ Number of Classes: 120 Dog Breeds.
 
 Top-5 Predictions available for inference.
 
-##📋 Architecture
+## 📋 Architecture
 Feature Extraction:
 
 Xception Model (without final classification layers).
@@ -31,7 +31,7 @@ Classification Head:
 
 Final linear layers for predicting 120 dog breeds.
 
-##🐕 Dataset
+## 🐕 Dataset
 Source: Stanford Dogs Dataset
 
 Classes: 120 Dog Breeds
@@ -48,7 +48,7 @@ Labeling:
 
 labels_r dictionary maps integer labels (0–119) to breed names.
 
-##⚡️ Training Details
+## ⚡️ Training Details
 Framework: PyTorch
 
 Model Backbone: Xception
