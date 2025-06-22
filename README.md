@@ -28,7 +28,7 @@ Source: Stanford Dogs Dataset (https://www.kaggle.com/datasets/jessicali9530/sta
 Classes: 120 Dog Breeds
 
 Training/Validation/Test Split:
-Total Images: 20,580 (shuffled and split into 10 equal parts)
+Total Images: 20,580 (combined from both the train and test folders of the dataset, shuffled, and split into 10 equal parts)
 
 Training Set: 7 parts (7 × 2,058) = 14,406 images
 
