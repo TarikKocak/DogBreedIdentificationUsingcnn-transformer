@@ -29,9 +29,13 @@ Classes: 120 Dog Breeds
 
 Training/Validation/Test Split:
 Total Images: 20,580 (shuffled and split into 10 equal parts)
+
 Training Set: 7 parts (7 × 2,058) = 14,406 images
+
 Validation Set: 1 part (2,058 images)
+
 Test Set: 2 parts (2 × 2,058) = 4,116 images
+
 Input Image Size: 122×122 pixels
 
 Labeling:
