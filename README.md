@@ -59,5 +59,9 @@ Training Epochs: Approximately 20, with early stopping to halt training when no 
 Final Model: xception_transformer_best.pt
 
 ## ✅ Results
+
+Achieved %93.46 accuracy
+
 Our model ranks 5th among other works evaluated on the same dataset and task
+
 ![top5new](https://github.com/user-attachments/assets/8d11ba50-f6b8-499b-8918-b082fd289b1c)
