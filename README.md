@@ -32,7 +32,7 @@ Classification Head:
 Final linear layers for predicting 120 dog breeds.
 
 ## 🐕 Dataset
-Source: Stanford Dogs Dataset
+Source: Stanford Dogs Dataset (https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)
 
 Classes: 120 Dog Breeds
 
